@@ -1,5 +1,8 @@
 TOKEN=""
-db_name=""
-db_port=3306
-db_user=""
-db_password=""
+DB_CONFIG = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': '1234',
+    'database': 'testbase',
+    'port': 3306
+}
